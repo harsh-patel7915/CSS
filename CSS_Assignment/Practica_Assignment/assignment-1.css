@@ -37,13 +37,9 @@ label, input, option{
     border-radius: 20px;
 }
 
-#submit:hover{
+#submit:hover, #reset:hover{
     background-color: #004030;
     border: 3px solid black;
     color: #DEE791;
 }
-#reset:hover{
-    background-color: #004030;
-    border: 3px solid black;
-    color: #DEE791;
-}
+
