@@ -7,7 +7,13 @@
 .box{
     height: 200px;
     width: 200px;
-    background-color: blue;
+    /* background-color: blue; */
+    background-image: url('https://i.pinimg.com/736x/69/3c/2c/693c2c35bf133deed4656e52e3ed4827.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* background-clip: border-box; */
     border: 2px solid red;
     transition: all 3s ease-in;
 }
@@ -15,7 +21,7 @@
     transform: translateY(-10px);
     transform: rotate(360deg);
     /* transform: skew(45deg); */
-    color: white;
+    /* color: white; */
     /* background-color: gray; */
     background-image: url('https://www.vhv.rs/dpng/d/123-1238353_logo-royal-enfield-vector-hd-png-download.png');
     background-position: center;
